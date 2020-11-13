@@ -34,7 +34,7 @@ else:
 
 if grade >= 90:
     print("A")
-elif grade >= 80:
+elif grade >= 80: # else if -> check again for the condition
     print("B")
 elif grade >= 70:
     print("C")
