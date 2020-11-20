@@ -35,8 +35,11 @@ else:
 
 # 1,2,3,4,5,6,7,8,9,10
 # range(inclusive, exclusive)
+tot = 0
 for x in range(1,11): # x <- var that changes, we use.
     print(x)
+    tot = tot + x
+print(tot)
 
 #while loop - repeat code, where we don't know the cetain of iterations
 #Create a random number guesser -
