@@ -35,7 +35,7 @@ while varWon == 0:
     if guess == randNnm:
         print("Guessed Correctly! You Won!")
         varWon = 1
-    else:x
+    else:
         print("Try Again")
 print("Game Done")
 
