@@ -7,8 +7,7 @@ import random
 #AP CS A -> Java CS Course
 #Lesson
 #TBD:
-#Quiz
-#Assignment
+
 
 
 
@@ -30,7 +29,16 @@ rand = random.randint(1,4)
 
 print("Welcome to number guesser. I am choosing a number 1 to 10")
 randNnm = random.randint(1,10)
-guess = input("Please enter a number 1 to 10:")
+varWon = 0
+while varWon == 0:
+    guess = int(input("Please enter a number 1 to 10:"))
+    if guess == randNnm:
+        print("Guessed Correctly! You Won!")
+        varWon = 1
+    else:x
+        print("Try Again")
+print("Game Done")
+
 
 
 
